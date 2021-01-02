@@ -1,0 +1,21 @@
+###
+
+POST http://127.0.0.1:5000/api/users/sign-in/
+Content-Type: application/json
+
+{"email": "admin@example.me", "password": "qwe123qwe"}
+
+###
+
+POST http://127.0.0.1:5000/api/users/sign-up/
+Content-Type: application/json
+
+{"email": "admin@example.me", "password": "qwe123qwe"}
+
+###
+
+GET http://127.0.0.1:5000/api/users/profile/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MDk2MDc0MDUsIm5iZiI6MTYwOTYwNzQwNSwianRpIjoiMjY5NGU0YWItYTYzZi00MDNkLTkwNzItZmM1MzQxZDA5NTBkIiwiZXhwIjoxNjA5NjI5MDA1LCJpZGVudGl0eSI6eyJpZCI6MSwiZW1haWwiOiJhZG1pbkB2YW4ud29yayJ9LCJmcmVzaCI6ZmFsc2UsInR5cGUiOiJhY2Nlc3MifQ.4nL0YskD2NuAQAMARnZwyBClht3CFU-1qc2hK4Kuxb4
+
+###
